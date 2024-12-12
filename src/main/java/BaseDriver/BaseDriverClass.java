@@ -54,6 +54,7 @@ public class BaseDriverClass {
     }
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
     //added new file for testing
@@ -61,6 +62,9 @@ public class BaseDriverClass {
 
     //rushi added new line in at 58 in feature 2
 >>>>>>> feature2
+=======
+
+>>>>>>> ccc4f01598032ba06531196bd0cc18136bdae9fb
 
     
 
