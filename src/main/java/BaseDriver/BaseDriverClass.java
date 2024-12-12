@@ -53,26 +53,5 @@ public class BaseDriverClass {
         wait.until(ExpectedConditions.visibilityOf(ele));
     }
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-    
-=======
-    //added new file for testing
- //lets try out pushing code from git to eclipse
 
-    //rushi added new line in at 58 in feature 2
->>>>>>> feature2
-=======
-
->>>>>>> ccc4f01598032ba06531196bd0cc18136bdae9fb
-
-    
-
-
-
-
-
-//rushi added new comment through git hub
-
-	
 }
