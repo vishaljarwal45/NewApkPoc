@@ -55,11 +55,8 @@ public class BaseDriverClass {
     
     //added new file for testing
  //lets try out pushing code from git to eclipse
-<<<<<<< HEAD
-    //vishal added new code at 58 lets push it
-=======
+
     //rushi added new line in at 58 in feature 2
->>>>>>> 5ef875cb9072ca325ccd518c58147c0804a2e3dd
 
     
     
