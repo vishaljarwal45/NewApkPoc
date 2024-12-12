@@ -53,10 +53,9 @@ public class BaseDriverClass {
         wait.until(ExpectedConditions.visibilityOf(ele));
     }
     
-    //added new file for testing
-    //testing
+    
     
 
-    
+    //earlier code edited added new
     
 }
