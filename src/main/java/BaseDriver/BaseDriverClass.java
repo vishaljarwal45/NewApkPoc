@@ -22,11 +22,10 @@ public class BaseDriverClass {
 	public static Properties prop;
 
     
-    
     public static void LaunchZielApp() throws InterruptedException, IOException, URISyntaxException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("platformName", "Android");
-        cap.setCapability("deviceName", "35111FDH2008RX");
+        cap.setCapability("deviceName", "emulator-5556");
         cap.setCapability("automationName", "UiAutomator2");
         cap.setCapability("appPackage", "ai.zeil.android");
         cap.setCapability("appActivity", "ai.zeil.zeil.MainActivity");
