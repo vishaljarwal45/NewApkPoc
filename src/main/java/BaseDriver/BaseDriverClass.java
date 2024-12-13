@@ -21,7 +21,7 @@ public class BaseDriverClass {
     public static AppiumDriver driver;  
 	public static Properties prop;
 
-    
+    //adding one line to push in main 
     public static void LaunchZielApp() throws InterruptedException, IOException, URISyntaxException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("platformName", "Android");
