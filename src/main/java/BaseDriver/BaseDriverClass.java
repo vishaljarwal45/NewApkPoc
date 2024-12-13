@@ -22,7 +22,7 @@ public class BaseDriverClass {
 	public static Properties prop;
 
     
-    
+    //we will add this to main by pull request
     public static void LaunchZielApp() throws InterruptedException, IOException, URISyntaxException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("platformName", "Android");
@@ -35,7 +35,7 @@ public class BaseDriverClass {
         URI uri = new URI("http://127.0.0.1:4723");  
         URL serverURL = uri.toURL();  
 
-         driver = new AndroidDriver(serverURL, cap);//we have deleted previous class and added new one .
+         driver = new AndroidDriver(serverURL, cap);
    
         System.out.println("App has been Successfully launched");
 
