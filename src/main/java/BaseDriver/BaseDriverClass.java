@@ -32,10 +32,10 @@ public class BaseDriverClass {
         cap.setCapability("appActivity", "ai.zeil.zeil.MainActivity");
        
 
-        URI uri = new URI("http://127.0.0.1:4723");  //new URI classes has been added
+        URI uri = new URI("http://127.0.0.1:4723");  
         URL serverURL = uri.toURL();  
 
-         driver = new AndroidDriver(serverURL, cap);
+         driver = new AndroidDriver(serverURL, cap);//we have deleted previous class and added new one .
    
         System.out.println("App has been Successfully launched");
 
