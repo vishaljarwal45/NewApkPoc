@@ -22,7 +22,7 @@ public class BaseDriverClass {
 	public static Properties prop;
 
     
-    //we will add this to main by pull request
+    
     public static void LaunchZielApp() throws InterruptedException, IOException, URISyntaxException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("platformName", "Android");
