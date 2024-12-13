@@ -32,7 +32,7 @@ public class BaseDriverClass {
         cap.setCapability("appActivity", "ai.zeil.zeil.MainActivity");
        
 
-        URI uri = new URI("http://127.0.0.1:4723");
+        URI uri = new URI("http://127.0.0.1:4723");  //new URI classes has been added
         URL serverURL = uri.toURL();  
 
          driver = new AndroidDriver(serverURL, cap);
