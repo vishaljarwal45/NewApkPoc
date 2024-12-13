@@ -22,7 +22,7 @@ public class BaseDriverClass {
 	public static Properties prop;
 
     
-    
+    //we will add this to main by pull request
     public static void LaunchZielApp() throws InterruptedException, IOException, URISyntaxException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("platformName", "Android");
@@ -52,8 +52,5 @@ public class BaseDriverClass {
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(ele));
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> e1601fc85748af8dcfc1962f96432ecf6e793a38
 }
