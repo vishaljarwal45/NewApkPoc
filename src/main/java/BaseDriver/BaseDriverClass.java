@@ -32,7 +32,7 @@ public class BaseDriverClass {
         cap.setCapability("appActivity", "ai.zeil.zeil.MainActivity");
        
 
-        URI uri = new URI("http://127.0.0.1:4723");  //new URI classes has been added
+        URI uri = new URI("http://127.0.0.1:4723");  
         URL serverURL = uri.toURL();  
 
          driver = new AndroidDriver(serverURL, cap);
@@ -52,4 +52,8 @@ public class BaseDriverClass {
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(ele));
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e1601fc85748af8dcfc1962f96432ecf6e793a38
 }
