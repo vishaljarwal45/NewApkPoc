@@ -29,7 +29,6 @@ public class BaseDriverClass {
         cap.setCapability("appPackage", "ai.zeil.android");
         cap.setCapability("appActivity", "ai.zeil.zeil.MainActivity");
        
-
         URI uri = new URI("http://127.0.0.1:4723");  
         URL serverURL = uri.toURL();  
 

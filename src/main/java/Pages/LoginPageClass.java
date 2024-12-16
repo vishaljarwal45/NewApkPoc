@@ -5,8 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import BaseDriver.BaseDriverClass;
-import io.appium.java_client.AppiumDriver;  // Ensure you're importing AppiumDriver
-
+import io.appium.java_client.AppiumDriver;  
 public class LoginPageClass extends BaseDriverClass{
 
    
