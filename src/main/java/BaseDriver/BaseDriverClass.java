@@ -48,5 +48,5 @@ public class BaseDriverClass {
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(ele));
     }
-
+ 
 }
