@@ -24,7 +24,7 @@ public class BaseDriverClass {
     public static void LaunchZielApp() throws InterruptedException, IOException, URISyntaxException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("platformName", "Android");
-        cap.setCapability("deviceName", "emulator-5556");
+        cap.setCapability("deviceName", "emulator-5554");
         cap.setCapability("automationName", "UiAutomator2");
         cap.setCapability("appPackage", "ai.zeil.android");
         cap.setCapability("appActivity", "ai.zeil.zeil.MainActivity");
@@ -45,7 +45,6 @@ public class BaseDriverClass {
     }
     
     public void WaitUntilVisibilityOfElement(WebElement ele) {
-    	
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(ele));
     }

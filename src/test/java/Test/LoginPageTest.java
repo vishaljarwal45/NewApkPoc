@@ -12,7 +12,7 @@ import Pages.LoginPageClass;
 
 public class LoginPageTest extends BaseDriverClass {
 
-    private LoginPageClass login;
+    private LoginPageClass login; 
 
        @BeforeClass
        public void LaunchApp() throws InterruptedException, IOException, URISyntaxException {

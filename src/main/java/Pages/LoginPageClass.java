@@ -22,10 +22,12 @@ public class LoginPageClass extends BaseDriverClass{
     public void Login() throws InterruptedException {
 
     	WaitUntilVisibilityOfElement(EmailTxtField);
+ 
     	EmailTxtField.click();
     	EmailTxtField.sendKeys(prop.getProperty("Email"));
         System.out.println("Email id entered Successfully");
-       
+        
+      
         WaitUntilVisibilityOfElement(ClickOnContinue);
         ClickOnContinue.click();
         
